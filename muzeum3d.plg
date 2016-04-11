@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: muzeum3d - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x415 /fo"Debug/Script4.res" /d "NDEBUG" /d "_DEBUG" "D:\!~projekty opengl\MUZEUM 3D\BETA\Script4.rc"" 
+Creating temporary file "C:\DOCUME~1\MICHA£\USTAWI~1\Temp\RSP231.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /Op /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_DEBUG" /Fp"Debug/muzeum3d.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\!~projekty opengl\MUZEUM 3D\BETA\muzeum3d.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\MICHA£\USTAWI~1\Temp\RSP231.tmp"" 
+Creating temporary file "C:\DOCUME~1\MICHA£\USTAWI~1\Temp\RSP232.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib opengl32.lib glu32.lib glaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/muzeum3d.pdb" /debug /machine:I386 /out:"Debug/muzeum3d.exe" /pdbtype:sept 
+".\Debug\muzeum3d.obj"
+".\Debug\Script4.res"
+]
+Creating command line "link.exe @"C:\DOCUME~1\MICHA£\USTAWI~1\Temp\RSP232.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+muzeum3d.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+muzeum3d.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
